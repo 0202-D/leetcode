@@ -13,5 +13,6 @@ public class ValidAnagram {
         String[] array2 = t.split("");
         Arrays.sort(array2);
         return Arrays.equals(array, array2);
+        
     }
 }
